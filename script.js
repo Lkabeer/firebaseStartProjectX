@@ -56,7 +56,6 @@
 
 
     // version 3 X-Team Started
-
     // Sync object changes
     timeAgo = [];
     dbRefNotifications.on('child_added', snap => {
@@ -84,7 +83,6 @@
         var newNumber = snap.child('number').val();
         console.log(newNumber * 2);
     });
-
     // version 3 X-Team end
 
     
